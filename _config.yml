@@ -87,6 +87,11 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "hhttps://www.linkedin.com/in/caioviniciusteixeira/?locale=en_US"
 
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
 defaults:
   # _posts
   - scope:
@@ -106,6 +111,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
 
 category_archive:
   type: liquid
