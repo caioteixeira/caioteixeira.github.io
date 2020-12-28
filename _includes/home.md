@@ -1,9 +1,3 @@
----
-permalink: /
-layout: home
-published: true
----
-
 # Hello, I'm Caio Teixeira :)
 
 I'm a Software Engineer from São Paulo, Brazil. 
