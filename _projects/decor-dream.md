@@ -1,6 +1,6 @@
 ---
-title: "Starside"
-date: "2017-06-01"
+title: "Decor Dream"
+date: "2019-06-01"
 excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
 header:
   teaser: /assets/images/starside/00.png

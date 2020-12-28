@@ -1,7 +1,7 @@
 ---
-title: "Starside"
-date: "2017-06-01"
-excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
+title: "Call of Duty Infinity Warfare"
+date: "2016-10-01"
+excerpt: "A Match-3 game."
 header:
   teaser: /assets/images/starside/00.png
 sidebar:
