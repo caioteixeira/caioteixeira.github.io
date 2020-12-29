@@ -12,6 +12,8 @@ sidebar:
     text: "Senior Software Engineer"
   - title: "Company"
     text: "Space Sheep Games"
+  - title: "Platforms"
+    text: "Android and iOS"
   - title: "Responsibilities"
     text: "Technical Leadership. Software Archicture. Gameplay and Tools Programming."
 gallery:
@@ -37,7 +39,15 @@ gallery:
 
 Bid Wars Stars is a realtime multiplayer game with an auction simulation gameplay. This project was a big challenge for two reasons: this was the company's first multiplayer game and we had a tight schedule of 9 months from pre-production to global launch.
 
-I was one of the technical leaders of the project, my focus was on the Unity client, gameplay features and content creation/live-ops tooling.
+I was one of the technical leaders of the project, my focus was on the Unity client, gameplay features and content creation/live-ops tooling. 
+
+## Main contributions
+- System architecture design
+- Strive for a good balance beetwen fast delivery and quality
+- Mentoring other developers
+- Create a content creation pipeline for designers and artists
+- Gameplay programming on both client and server
+- UI programming
 
 ## Tech stack
 - Mobile Client: Unity/C#
