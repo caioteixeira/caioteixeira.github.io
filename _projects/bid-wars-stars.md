@@ -35,6 +35,14 @@ gallery:
     alt: "Pawn shop screen"
 ---
 
-Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn't a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening & War section YouTube social media SEO information overload analytics Aron Pilhofer Journal Register data visualization WikiLeaks Groupon, collaboration Steve Jobs we need a Nate Silver AP What Would Google Do the power of the press belongs to the person who owns one Clay Shirky curmudgeon Voice of San Diego free as in beer dead trees the notion of the public Lucius Nieman.
+Bid Wars Stars is a realtime multiplayer game with an auction simulation gameplay. This project was a big challenge for two reasons: this was the company's first multiplayer game and we had a tight schedule of 9 months from pre-production to global launch.
+
+I was one of the technical leaders of the project, my focus was on the Unity client, gameplay features and content creation/live-ops tooling.
+
+## Tech stack
+- Mobile Client: Unity/C#
+- Backend: Javascript, NodeJS, Colyseus, Kubernetes, Google Data Store
+- Content creation and Live ops tools: Unity/C#, Javascript, VueJS
+- Native SDKs: Firebase, Facebook, Apple login, AppsFlyer, AdMob, Vungle,IronSource, etc.
 
 {% include gallery %}
