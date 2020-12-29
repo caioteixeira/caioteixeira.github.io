@@ -1,25 +1,29 @@
 ---
 title: "Bid Wars Stars"
 date: "2020-07-01"
+classes: wide
 excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
 header:
-  teaser: /assets/images/starside/00.png
+  teaser: /assets/images/bid-wars-stars/logo.png
 sidebar:
   - title: "Role"
-    image: /assets/images/starside/00.png
+    image: /assets/images/bid-wars-stars/logo.png
     image_alt: "logo"
     text: "Designer, Front-End Developer"
   - title: "Responsibilities"
     text: "Reuters try PR stupid commenters should isn't a business model"
 gallery:
-  - url: /assets/images/starside/01.png
-    image_path: /assets/images/starside/01.png
+  - url: /assets/images/bid-wars-stars/lobby.jpg
+    image_path: /assets/images/bid-wars-stars/lobby.jpg
     alt: "placeholder image 1"
-  - url: /assets/images/starside/02.png
-    image_path: /assets/images/starside/02.png
+  - url: /assets/images/bid-wars-stars/gameplay-1.jpg
+    image_path: /assets/images/bid-wars-stars/gameplay-1.jpg
+    alt: "placeholder image 1"
+  - url: /assets/images/bid-wars-stars/city-selection.jpg
+    image_path: /assets/images/bid-wars-stars/city-selection.jpg
     alt: "placeholder image 2"
-  - url: /assets/images/starside/03.png
-    image_path: /assets/images/starside/03.png
+  - url: /assets/images/bid-wars-stars/store.jpg
+    image_path: /assets/images/bid-wars-stars/store.jpg
     alt: "placeholder image 3"
 ---
 

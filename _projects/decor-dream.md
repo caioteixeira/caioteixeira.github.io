@@ -1,25 +1,32 @@
 ---
 title: "Decor Dream"
 date: "2019-06-01"
+classes: wide
 excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
 header:
-  teaser: /assets/images/starside/00.png
+  teaser: /assets/images/decor-dream/icon.png
 sidebar:
   - title: "Role"
-    image: /assets/images/starside/00.png
+    image: /assets/images/decor-dream/icon.png
     image_alt: "logo"
     text: "Designer, Front-End Developer"
   - title: "Responsibilities"
     text: "Reuters try PR stupid commenters should isn't a business model"
 gallery:
-  - url: /assets/images/starside/01.png
-    image_path: /assets/images/starside/01.png
+  - url: /assets/images/decor-dream/decor.jpg
+    image_path: /assets/images/decor-dream/decor.jpg
     alt: "placeholder image 1"
-  - url: /assets/images/starside/02.png
-    image_path: /assets/images/starside/02.png
+  - url: /assets/images/decor-dream/match-3.jpg
+    image_path: /assets/images/decor-dream/match-3.jpg
+    alt: "placeholder image 1"
+  - url: /assets/images/decor-dream/narrative.jpg
+    image_path: /assets/images/decor-dream/narrative.jpg
     alt: "placeholder image 2"
-  - url: /assets/images/starside/03.png
-    image_path: /assets/images/starside/03.png
+  - url: /assets/images/decor-dream/room-ending.jpg
+    image_path: /assets/images/decor-dream/room-ending.jpg
+    alt: "placeholder image 3"
+  - url: /assets/images/decor-dream/city-selection.jpg
+    image_path: /assets/images/decor-dream/city-selection.jpg
     alt: "placeholder image 3"
 ---
 

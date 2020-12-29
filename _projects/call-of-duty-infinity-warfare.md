@@ -2,6 +2,7 @@
 title: "Call of Duty Infinity Warfare"
 date: "2016-10-01"
 excerpt: "A Match-3 game."
+classes: wide
 header:
   teaser: /assets/images/starside/00.png
 sidebar:
