@@ -2,16 +2,20 @@
 title: "Starside"
 date: "2017-06-01"
 classes: wide
-excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
+excerpt: "A Match-3 game with a strong narrative and a city-building side-loop."
 header:
   teaser: /assets/images/starside/00.png
 sidebar:
   - title: "Role"
     image: /assets/images/starside/00.png
     image_alt: "logo"
-    text: "Designer, Front-End Developer"
+    text: "Software Engineer"
+  - title: "Company"
+    text: "Tapps Games"
+  - title: "Platforms"
+    text: "Android and iOS"
   - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
+    text: "Gameplay and Tools Programming. Software Archicture."
 gallery:
   - url: /assets/images/starside/01.png
     image_path: /assets/images/starside/01.png
