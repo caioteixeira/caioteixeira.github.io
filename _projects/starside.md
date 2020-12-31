@@ -1,14 +1,14 @@
 ---
-title: "Starside"
+title: "Starside Celebrity Island"
 date: "2017-06-01"
 classes: wide
 excerpt: "A Match-3 game with a strong narrative and a city-building side-loop."
 header:
-  teaser: /assets/images/starside/00.png
+  teaser: /assets/images/starside/logo.png
 sidebar:
   - title: "Role"
-    image: /assets/images/starside/00.png
-    image_alt: "logo"
+    image: /assets/images/starside/logo.png
+    image_alt: "Starside logo"
     text: "Software Engineer"
   - title: "Company"
     text: "Tapps Games"
@@ -17,19 +17,31 @@ sidebar:
   - title: "Responsibilities"
     text: "Gameplay and Tools Programming. Software Archicture."
 gallery:
-  - url: /assets/images/starside/01.png
-    image_path: /assets/images/starside/01.png
-    alt: "placeholder image 1"
-  - url: /assets/images/starside/02.png
-    image_path: /assets/images/starside/02.png
-    alt: "placeholder image 2"
-  - url: /assets/images/starside/03.png
-    image_path: /assets/images/starside/03.png
-    alt: "placeholder image 3"
+  - url: /assets/images/starside/celebrities.png
+    image_path: /assets/images/starside/celebrities.png
+    alt: "Promo image with celebrities"
+  - url: /assets/images/starside/customization-2.png
+    image_path: /assets/images/starside/customization-2.png
+    alt: "Customization screen"
+  - url: /assets/images/starside/gameplay.png
+    image_path: /assets/images/starside/gameplay.png
+    alt: "Match3 gameplay"
 ---
 
-Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn't a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening & War section YouTube social media SEO information overload analytics Aron Pilhofer Journal Register data visualization WikiLeaks Groupon, collaboration Steve Jobs we need a Nate Silver AP What Would Google Do the power of the press belongs to the person who owns one Clay Shirky curmudgeon Voice of San Diego free as in beer dead trees the notion of the public Lucius Nieman.
+Starside Celebrity Island is a match-3 game with a customization side-loop and a strong narrative. This project was the first project made with Unity in the company, so my team was also responsible for building some of the core shared libraries like analytics, audio, ads, in-app-purchases, DLC's, etc.
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
 
-hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
+I was one of the developers on the initial team and worked on it for two years, going through pre-production, production, soft-launch, global-launch, and live operation.
+
+## Main contributions
+- Implement gameplay features on both Match-3 and customization loops
+- Design and implement shared libraries
+- Create a content creation pipeline for designers and artists
+- Implement live-ops features like parallel progression events
+- UI programming
+
+## Tech stack
+- Mobile client and tools: Unity/C#
+- Native SDKs: Firebase, Facebook SDK, AppsFlyer, AdMob, Vungle, IronSource, etc.
+
+{% include gallery %}
