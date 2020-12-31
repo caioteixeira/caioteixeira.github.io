@@ -1,31 +1,34 @@
 ---
-title: "Call of Duty Infinity Warfare"
+title: "Call of Duty Infinite Warfare"
 date: "2016-10-01"
-excerpt: "A Match-3 game."
+excerpt: "The 2016 release of Call of Duty franchise."
 classes: wide
 header:
-  teaser: /assets/images/starside/00.png
+  teaser: /assets/images/call-of-duty-infinite-warfare/logo.png
 sidebar:
   - title: "Role"
-    image: /assets/images/starside/00.png
+    image: /assets/images/call-of-duty-infinite-warfare/logo.png
     image_alt: "logo"
-    text: "Designer, Front-End Developer"
-  - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
+    text: "Programming Intern"
+  - title: "Platforms"
+    text: "Windows, PS4, Xbox One"
+  - title: "Release Date"
+    text: "2016"
 gallery:
-  - url: /assets/images/starside/01.png
-    image_path: /assets/images/starside/01.png
-    alt: "placeholder image 1"
-  - url: /assets/images/starside/02.png
-    image_path: /assets/images/starside/02.png
-    alt: "placeholder image 2"
-  - url: /assets/images/starside/03.png
-    image_path: /assets/images/starside/03.png
-    alt: "placeholder image 3"
+  - url: /assets/images/call-of-duty-infinite-warfare/gameplay-1.jpg
+    image_path: /assets/images/call-of-duty-infinite-warfare/gameplay-1.jpg
+    alt: "Call of Duty Infinite Warfare gameplay"
+  - url: /assets/images/call-of-duty-infinite-warfare/gameplay-2.jpg
+    image_path: /assets/images/call-of-duty-infinite-warfare/gameplay-2.jpg
+    alt: "Call of Duty Infinite Warfare gameplay"
+  - url: /assets/images/call-of-duty-infinite-warfare/gameplay-3.jpg
+    image_path: /assets/images/call-of-duty-infinite-warfare/gameplay-3.jpg
+    alt: "Call of Duty Infinite Warfare gameplay"
+  - url: /assets/images/call-of-duty-infinite-warfare/credits.jpg
+    image_path: /assets/images/call-of-duty-infinite-warfare/credits.jpg
+    alt: "My name on credits :)"
 ---
 
-Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn't a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening & War section YouTube social media SEO information overload analytics Aron Pilhofer Journal Register data visualization WikiLeaks Groupon, collaboration Steve Jobs we need a Nate Silver AP What Would Google Do the power of the press belongs to the person who owns one Clay Shirky curmudgeon Voice of San Diego free as in beer dead trees the notion of the public Lucius Nieman.
+The 2016 release of Call of Duty franchise. I was an intern on the Core Technologies team working mostly on graphics and engine programming tasks, profiling and optimization using Xbox One and PS4 dev-kits and SDKs.
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
-
-hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
+{% include gallery %}
