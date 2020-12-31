@@ -16,6 +16,8 @@ sidebar:
     text: "Android and iOS"
   - title: "Responsibilities"
     text: "Gameplay and Tools Programming. Software Archicture."
+  - text: "[<i class='fab fa-android'></i> Download on Google Play](https://play.google.com/store/apps/details?id=br.com.tapps.starside&hl=en&gl=US){: .btn .btn--primary}"
+  - text: "[<i class='fab fa-apple'></i> Download on App Store](https://apps.apple.com/us/app/starside-celebrity-island/id1228677649){: .btn .btn--primary}"
 gallery:
   - url: /assets/images/starside/celebrities.png
     image_path: /assets/images/starside/celebrities.png

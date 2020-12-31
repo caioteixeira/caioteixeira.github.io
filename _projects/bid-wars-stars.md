@@ -16,6 +16,8 @@ sidebar:
     text: "Android and iOS"
   - title: "Responsibilities"
     text: "Technical Leadership. Software Archicture. Gameplay and Tools Programming."
+  - text: "[<i class='fab fa-android'></i> Download on Google Play](https://play.google.com/store/apps/details?id=com.byaliens.bid.wars.stars.multiplayer.auction.battles&hl=en&gl=US){: .btn .btn--primary}"
+  - text: "[<i class='fab fa-apple'></i> Download on App Store](https://apps.apple.com/br/app/bid-wars-stars/id1506068425){: .btn .btn--primary}"
 gallery:
   - url: /assets/images/bid-wars-stars/lobby.jpg
     image_path: /assets/images/bid-wars-stars/lobby.jpg

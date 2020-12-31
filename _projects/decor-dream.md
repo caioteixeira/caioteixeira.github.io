@@ -16,6 +16,8 @@ sidebar:
     text: "Android and iOS"
   - title: "Responsibilities"
     text: "Gameplay and Tools Programming. Software Archicture."
+  - text: "[<i class='fab fa-android'></i> Download on Google Play](https://play.google.com/store/apps/details?id=com.byaliens.match3.puzzle.house.games&hl=en&gl=US){: .btn .btn--primary}"
+  - text: "[<i class='fab fa-apple'></i> Download on App Store](https://apps.apple.com/us/app/decor-dream-home-design-game/id1496151505){: .btn .btn--primary}"
 gallery:
   - url: /assets/images/decor-dream/decor-2.jpg
     image_path: /assets/images/decor-dream/decor-2.jpg
