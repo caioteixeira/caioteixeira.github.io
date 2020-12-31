@@ -52,7 +52,7 @@ I was one of the technical leaders of the project, my focus was on the Unity cli
 ## Tech stack
 - Mobile Client: Unity/C#
 - Backend: Javascript, NodeJS, Colyseus, Kubernetes, Google Data Store
-- Content creation and Live ops tools: Unity/C#, Javascript, VueJS
+- Content creation and Live ops tools: Unity/C#, Javascript, VueJS, Blender
 - Native SDKs: Firebase, Facebook, Apple login, AppsFlyer, AdMob, Vungle, IronSource, etc.
 
 {% include gallery %}

@@ -37,8 +37,19 @@ gallery:
     alt: "City selection cinematics"
 ---
 
-Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn't a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening & War section YouTube social media SEO information overload analytics Aron Pilhofer Journal Register data visualization WikiLeaks Groupon, collaboration Steve Jobs we need a Nate Silver AP What Would Google Do the power of the press belongs to the person who owns one Clay Shirky curmudgeon Voice of San Diego free as in beer dead trees the notion of the public Lucius Nieman.
+Decor Dream is a home design game with narrative and a match-3 side-loop. This project was the first game with a 3D asset pipeline on the company, so my team also had a goal of creating a new asset pipeline.
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
+I worked on this project during one year of its production. Most of my work was related to set up a graphics pipeline for the home design gameplay, creating tools for 3D artists and narrative designers. I was also responsible for some performance optimizations on both gameplay and rendering.
 
-hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
+# Main contributions
+- Created an asset pipeline for 3D models and animations.
+- Setup rendering for home design gameplay, including tools for asset validation and baking lights/ambient occlusion.
+- Created tooling to enable narrative designers to create content.
+- Profiling and performance optimization on both gameplay and rendering.
+
+## Tech stack
+- Mobile client and tools: Unity/C#, Fungus
+- Asset pipeline: Maya and Maya SDK, Python and PyQt  
+- Native SDKs: Firebase, Facebook SDK, AppsFlyer, AdMob, Vungle, IronSource, etc.
+
+{% include gallery %}

@@ -35,13 +35,15 @@ I was one of the developers on the initial team and worked on it for two years, 
 
 ## Main contributions
 - Implement gameplay features on both Match-3 and customization loops
+- Profiling and performance optimization
 - Design and implement shared libraries
 - Create a content creation pipeline for designers and artists
+- Implement tooling for match-3 balancing
 - Implement live-ops features like parallel progression events
 - UI programming
 
 ## Tech stack
-- Mobile client and tools: Unity/C#
+- Mobile client and tools: Unity/C#, Fungus
 - Native SDKs: Firebase, Facebook SDK, AppsFlyer, AdMob, Vungle, IronSource, etc.
 
 {% include gallery %}
