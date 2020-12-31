@@ -16,6 +16,15 @@ sidebar:
     text: "Technical Leadership. Software Archicture. Build automation."
 ---
 
-Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn't a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening & War section YouTube social media SEO information overload analytics Aron Pilhofer Journal Register data visualization WikiLeaks Groupon, collaboration Steve Jobs we need a Nate Silver AP What Would Google Do the power of the press belongs to the person who owns one Clay Shirky curmudgeon Voice of San Diego free as in beer dead trees the notion of the public Lucius Nieman.
+After working on Tapps' two first mobile games made with Unity, I began to work on an ambitious project: do all preparations to pivot the development of all new games from a proprietary game engine to Unity.
 
-hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
+I worked on this project for one year as a senior engineer and one of the technical leaders. To pursue the goal of a smooth transition to Unity, my team was responsible for multiple different tasks: providing training for production teams, research solutions for existing issues with our development process, map and fix existing issues with our existing shared libraries and continuous integration infrastructure.
+
+## Main contributions
+- Began to restructure our shared libraries from a single monolithic library to multiple small libraries
+- Introduced Unity Package Manager and a private NPM registry as the official way to release and distribute shared libraries
+- Interview all production teams (game designers, artists, programmers, etc.) to map existing issues and improve development processes
+- Refactored our internal build system, removed shared dependencies with our internal game engine build process
+- Reduced build time up to 60% by using [Unity Cache Server](https://github.com/Unity-Technologies/unity-cache-server)
+- Made a Prof of Concept of creating build agents using Docker and Unity images. Enabling easier scaling and Unity updates
+- Introduced [Unity Jar Resolver](https://github.com/googlesamples/unity-jar-resolver) to handle native plugin dependencies resolution, reducing friction and enable more frequent updates
