@@ -8,7 +8,7 @@ header:
 sidebar:
   - title: "Role"
     image: /assets/images/decor-dream/icon.png
-    image_alt: "logo"
+    image_alt: "Decor Dream logo"
     text: "Software Engineer"
   - title: "Company"
     text: "Tapps Games"
