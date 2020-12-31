@@ -1,7 +1,16 @@
 ---
 layout: home
 author_profile: true
+
+feature_row:
+  - title: "Development"
+    excerpt: "Do you need an extra hand to develop your game, tool or app? Maybe I can help you :)"
+  - title: "Optimization"
+    excerpt: "Your game is laggy and you don't now why? I can help you! :)"
+  - title: "Tech Consultancy"
+    excerpt: "For when you have a difficult problem to solve. I can help you to find a good solution :)"
 ---
 
 {% capture my_include %}{% include home.md %}{% endcapture %}
 {{ my_include | markdownify }}
+{% include feature_row %}
