@@ -16,9 +16,8 @@
 title: Caio Teixeira
 email: "caioteixeira.dev@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Caio Teixeira's professional homepage.
+url: "https://www.caioteixeira.dev/"
 twitter_username: caiovmteixeira
 github_username: caioteixeira
 minimal_mistakes_skin: default
