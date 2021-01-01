@@ -56,6 +56,12 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+analytics:
+  provider : "google"
+  google:
+    tracking_id : "G-Z32B3XLLZH"
+    anonymize_ip : true
+
 author:
   name   : "Caio Teixeira"
   avatar : "/assets/images/bio-photo.jpg"
