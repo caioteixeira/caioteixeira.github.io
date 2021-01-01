@@ -57,7 +57,7 @@ plugins:
   - jekyll-include-cache
 
 analytics:
-  provider : "google"
+  provider : "google-gtag"
   google:
     tracking_id : "G-Z32B3XLLZH"
     anonymize_ip : true
