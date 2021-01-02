@@ -17,8 +17,8 @@ My toy game/graphics engine project, originally developed as my graduation proje
 my main goal with this project was to have to a good testbed for my engine and graphics programming experiments and learn more about D3D12 and graphics programming.
 
 ## Current Features
-* Simple Direct3D 12 Multithreaded Renderer
-* Simple Phong Lighting (Point and ambient lights only)
+* Direct3D 12 Multithreaded Renderer
+* Phong Lighting (Point and ambient lights only)
 * OBJ meshes and MTL materials loading, using [TinyObjLoader](https://github.com/syoyo/tinyobjloader)
 * Entity Component System architecture, based on [EntityX](https://github.com/alecthomas/entityx)
 * Integrated profiler, using [EasyProfiler](https://github.com/yse/easy_profiler)
