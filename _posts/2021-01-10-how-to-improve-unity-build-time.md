@@ -52,7 +52,7 @@ Does your project build new bundles for every new game binary build? You may sav
 
 If you are building locally, this can be done as simply as removing your asset bundle build routine from your custom build scripts.
 
-If you are building on a continuous integration tool, you can cache the folder where your store your built asset bundles (similarly to how we cached the Library folder) and only trigger new asset bundle builds if an asset has changed. GitHub Actions has a built-in filter that you can use to trigger an asset bundle build action only if an asset in a folder has changed, you can probably do the same in other CI tools.
+If you are building on a continuous integration tool, you can cache the folder where your store your built asset bundles (similarly to how we cached the Library folder) and only trigger new asset bundle builds if an asset has changed. GitHub Actions has a [built-in filter](https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestpaths) that you can use to trigger an asset bundle build action only if an asset in a folder has changed, you can probably do the same in other CI tools.
 
 ![asset-bundle-build-diagram.png](/assets/images/blog/unity-build/asset-bundle-build-diagram.png)
 
