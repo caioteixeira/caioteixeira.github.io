@@ -16,7 +16,7 @@
 title: Caio Teixeira
 email: "caioteixeira.dev@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  Caio Teixeira's professional homepage. Software Engineer / Game Programmer
+  Caio Teixeira's website. Software Engineering and Game Programming.
 url: "https://caioteixeira.dev"
 twitter_username: caiovmteixeira
 github_username: caioteixeira
@@ -65,7 +65,8 @@ analytics:
 author:
   name   : "Caio Teixeira"
   avatar : "/assets/images/bio-photo.jpg"
-  #bio    : "Software Engineer. I code games or anything that needs to be fast."
+  bio    : "Software Engineer and Game Developer"
+  location: "São Paulo, Brazil"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
@@ -90,7 +91,7 @@ footer:
       url: "https://github.com/caioteixeira"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "hhttps://www.linkedin.com/in/caioviniciusteixeira/?locale=en_US"
+      url: "https://www.linkedin.com/in/caioviniciusteixeira/?locale=en_US"
 
 collections:
   projects:
