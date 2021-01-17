@@ -4,8 +4,7 @@ analytics:
   provider: false
 
 comments:
-  disqus:
-    shortname            : "mmistakes-dev"
+  provider: "false"
 
 sass:
   style: expanded

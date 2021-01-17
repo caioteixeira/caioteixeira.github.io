@@ -62,6 +62,11 @@ analytics:
     tracking_id : "G-Z32B3XLLZH"
     anonymize_ip : true
 
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "caioteixeira"
+
 author:
   name   : "Caio Teixeira"
   avatar : "/assets/images/bio-photo.jpg"
