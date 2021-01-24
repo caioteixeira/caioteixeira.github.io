@@ -16,7 +16,7 @@ As I am totally inexperienced with Ruby, installing the Jekyll environment setup
 
 ## Docker Compose setup
 
-My plan is to be able to do a *docker-compose up* to be to run an instance of *jekyll serve* on my localhost, with all the auto rebuilding and live reloading goodies.
+My plan is to be able to just execute *docker-compose up* to run an instance of *jekyll serve* on my localhost, with all the auto rebuilding and live reloading goodies.
 
 Jekyll has an official docker image, so I created a simple *docker-compose.yml* file that creates a container with the official image, a volume that maps to the root of my repo and made it execute *jekyll serve.*
 
