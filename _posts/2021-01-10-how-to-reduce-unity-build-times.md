@@ -13,7 +13,7 @@ published: true
 excerpt: Large Unity projects can take a long time to build, in this post I describe some good ways to optimize build times that I learned with my past projects.
 ---
 
-One of the most common pains of large Unity projects is how a build can take a lot of time to finish. This is particularly painful because it directly affects our ability to quickly iterate in changes. My worst nightmare was having an issue only reproducible on devices, and having to wait one hour for a build to finish to be able to test any small change.
+One of the most common pains of large Unity projects is how a build can take a lot of time to finish. This is particularly painful because it directly affects our ability to quickly iterate in changes. My worst nightmare was having an issue only reproducible on devices, and having to wait one hour to be able to test any small change.
 
 This post is a walkthrough of several different things that you can do to improve the build time of your project. Most of them can be applied to any development or continuous integration environment.
 <!--more-->
@@ -31,7 +31,7 @@ Assemblies can also be built for specific platforms, **you can create one assemb
 
 ![Assemblies per Feature](/assets/images/blog/unity-build/feature-assemblies-examples.png)
 
-Unity has a great documentation on how to setup assembly definitions, it covers many of the problem that you will probably need to handle like dependencies, editor assemblies, constraints, etc.
+Unity has a [great documentation](https://docs.unity3d.com/Manual/ScriptCompilationAssemblyDefinitionFiles.html) on how to setup assembly definitions, it covers many of the problem that you will probably need to handle like dependencies, editor assemblies, constraints, etc.
 
 ## Cache your Library folder
 When you open a project for the first time, Unity usually takes some time to import all assets that the project has. After importing an asset and doing all the necessary computations, Unity stores the imported asset in the Library folder.
@@ -58,15 +58,15 @@ If you are using GitHub Actions, you can use the [default cache action](https://
 
 ## Build asset bundles and game binary independently
 
-Does your project build new bundles for every new game binary build? You may save a lot of build time by splitting the asset bundle builds from game binary builds. Many changes on code will not require entire new asset bundle builds, as assets and scriptable objects will still be compatible and if any compatibility issue happens, you will probably fix it at the same time.
+Does your project build new bundles for every new game binary build? You may save a lot of build time by **splitting the asset bundle builds from game binary builds**. Many changes on code will not require entire new asset bundle builds, as assets and scriptable objects will still be compatible and if any compatibility issue happens, you will probably fix it at the same time.
 
 If you are building locally, this can be done as simply as removing your asset bundle build routine from your custom build scripts.
 
-If you are building on a continuous integration tool, you can cache the folder where your store your built asset bundles (similarly to how we cached the Library folder) and only trigger new asset bundle builds if an asset has changed. GitHub Actions has a [built-in filter](https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestpaths) that you can use to trigger an asset bundle build action only if an asset in a folder has changed, you can probably do the same in other CI tools.
+If you are building on a continuous integration tool, you can **cache the folder where you store your built asset bundles** (similarly to how we cached the Library folder) and only **trigger new builds if an asset has changed**. GitHub Actions has a [built-in filter](https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestpaths) that you can use to trigger a build action only if an asset in a folder has changed, you can probably do the same in other CI tools.
 
 ![Conditional asset bundle build diagram](/assets/images/blog/unity-build/asset-bundle-build-diagram.png)
 
-Another common setup is to actually have a separate project for asset bundles, this way asset bundles and binary builds are completely decoupled. By going this way, you don't have much overhead to import the assets (you don't even need to load a cached Library folder) and much of your build time will just be compilation and packaging. This setup is also useful for other reasons, you can implement a decoupled content pipeline for artists and designers, for example.
+Another common setup is to actually have a separate project for asset bundles, this way asset and binary builds are completely decoupled. By going this way, you don't have much overhead to import the assets and much of your build time will just be compilation and packaging. This setup is also useful for other reasons, you can implement a decoupled content pipeline for artists and designers, for example.
 
 ![How dedicated pipelines would look like](/assets/images/blog/unity-build/asset-bundle-build-dedicated-pipeline-diagram.png)
 
