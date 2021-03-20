@@ -57,15 +57,10 @@ plugins:
   - jekyll-include-cache
 
 analytics:
-  provider : "google-gtag"
-  google:
-    tracking_id : "G-Z32B3XLLZH"
-    anonymize_ip : true
+  provider: false
 
 comments:
-  provider: "disqus"
-  disqus:
-    shortname: "caioteixeira"
+  provider: "false"
 
 author:
   name   : "Caio Teixeira"
